@@ -1,0 +1,509 @@
+/*font-family: 'Montserrat', sans-serif;*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	/*text-align: center;*/
+	max-width: 100%;
+}
+
+/*styles in the img make the images more responsive in diffrent sizes*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav{
+	background: transparent;
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+
+#nav-color {
+	color: white;
+}
+
+
+nav a .nav-item {
+	text-align: right;
+	color: white;
+}
+
+.ghost-botton {
+	border: 1px white solid;
+	padding: 3px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #bca64d; 
+}
+
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: #103341;
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+/*These are styles for the header*/
+header{
+	
+	color: #fff;
+	height: 500px;
+	width: 1920px;
+	background-image: url("assets/background/fog1.jpg"); 
+	background-position: bottom;
+	max-width: 100%;
+	background-size: cover;
+}
+
+.text-center-parent {
+	
+	text-align: center;
+}
+
+header img {
+
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 10px 30px; 
+	text-align: center;
+}
+
+header p{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+header h2{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+#shop-on-etsy {
+	text-align: center;
+	font-weight: 600;
+	background:  #bca64d;
+	color: white;
+}
+
+/*These are styles for the main section*/
+
+
+
+.main-panel {
+	text-align: center;
+	max-width: 100%;
+}
+
+
+.main-panel h2{
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+
+}
+
+.main-panel p{
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.main-panel p i {
+	color: #b0b0b0;
+}
+
+.flex-item{
+	display: flex;
+}
+
+.girl-white-shirt {
+	flex-wrap: wrap-reverse;
+}
+
+.girl-white-shirt h2{
+	margin: 10% auto;
+}
+
+.girl-white-shirt p{
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-bottom: 10%;
+}
+
+.girl-white-shirt p i {
+	margin: auto 2%;
+}
+/*.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 1;
+}*/
+
+/*This is styles for the section below the colorful beads I am using there styles to try to figure out the gutter problem with now success*/
+
+/*Maybe try negative margin */
+
+/*I was not able to make negative margin work either*/
+
+/*maybe I can make both colums col 4 and offset them by 2*/
+
+/*to fix this problem I had to give a class to the images and change the text-align property them put the h2 and p in a div and center-align that div.*/
+
+#store-discription{
+	margin: 0;
+}
+
+#store-discription h2{
+	margin: 10% auto;
+}
+
+#store-discription p{
+	padding-left: 7%;
+	padding-right: 7%;
+	margin-bottom: 10%;
+}
+
+#store-discription img{
+}
+
+.align-right, .align-left {
+	text-align: center;
+	padding-right: 0;
+	padding-left: 0;
+}
+.align-center {
+	text-align: center;
+}
+
+/*this section styles the inverted panels*/
+
+.inverted-panel {
+	background:  #103341;
+	padding: 10px;
+	max-width: 100%;
+	text-align: center;
+
+}
+
+.inverted-panel h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #d9d9d9;
+	margin-bottom: 10%;
+}
+
+.inverted-panel h3 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #d9d9d9;
+}
+
+.inverted-panel p{
+	font-size: 11px;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+
+}
+
+
+.copper-pendent{
+	display: flex;
+	flex-wrap: wrap-reverse;
+
+}
+
+.main-panel img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/*This section is for the closing section*/
+
+#closing {
+	
+	background-position: bottom;
+	padding-bottom: 14%;
+	text-align: center;
+}
+
+
+
+#closing h2{
+	font-size: 22px;
+	font-weight: 300;
+	color: #999;
+}
+
+#closing h3{
+	font-size: 22px;
+	font-weight: 400;
+	color: #666;
+	/*max-width: 100%;*/
+}
+
+#closing a{
+	font-size: 18px;
+	font-weight: #fff;
+}
+
+#shop-button {
+	padding: 8px 24px;
+	background:  #bca64d;
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto 8%;
+
+}
+
+.join-section h2{
+	visibility: hidden;
+	text-align: center;
+}
+
+.form-group {
+    margin: -31px auto 55px auto;
+}
+
+.form-control {
+	text-align: center;
+    width: 77%;
+    padding: 22px 20px;
+    margin: 8px 12%;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: .5px;
+    font-size: 14px;
+}
+
+.join-section button {
+	margin: auto 12%;
+    background-color: grey; 
+    border: none;
+    color: white;
+    padding: 11px 77px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 1%;
+    width: 77%;
+}
+
+footer{
+	text-align: center;
+/*	width: 100%;*/
+}
+
+footer a{
+	text-align: center;
+    display: inline-block;
+    margin: 8px auto;
+	font-size: 12px;
+	color: #999;
+
+}
+
+footer p{
+	color: #999;
+}
+
+.fa-copyright {
+	color: #999;
+}
+
+footer i{
+	color: #bca64d;
+	margin: 3%;
+}
+
+
+/*These are the media quires for header section*/
+
+
+@media (min-width: 768px) {
+    #shop-on-etsy {
+
+        display: none;
+    }
+
+    #closing {
+		background-image: url(assets/background/pine-cone.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+   		/* background-attachment: fixed;*/
+    	background-position: center;
+    	max-width: 100%; 
+    	min-width: 100%;
+		padding-top: 150px;
+		padding-left: 50px;
+	}
+	#pine-cone-small{
+		display: none;
+
+	}
+}
+
+/*These are the styles for the store discription*/
+@media (min-width: 768px) {
+	#store-discription p{
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-right {
+
+		text-align: right;
+
+	}
+	.copper-pendent{
+		flex-wrap: wrap;
+	}
+
+
+}
+
+/*These are the media quires for header section*/
+
+@media (min-width: 768px) {
+	.text-center-parent{
+		text-align: left;
+		margin-left: 10%;
+		
+	}
+
+	header img{
+		margin-top: 22px;
+	}
+	#nav-shop{
+		border: 1px solid white;
+	}	
+	.navbar-nav{
+		margin-top: 10px;
+		padding: 1px 10px;
+	}
+}
+
+@media (min-width: 768px){
+	.inverted-panel{
+		 padding: 7% 16%
+	}
+}
+
+/*These are the styles for the girl-white-shirt */
+ @media (min-width: 768px){
+ 	 .girl-white-shirt{
+ 	 	margin-top: 5%;
+ 	 }
+ }
+
+
+/*these are the styles for the join-section*/
+
+
+ @media (min-width: 768px){
+ 	.join-section h2{
+ 		visibility: visible;
+ 		margin: 5%;
+ 	}
+
+ 	.form-control {
+    	text-align: center;
+    	width: 27%;
+    	padding: 22px 20px;
+    	margin: 8px 36%;
+    	box-sizing: border-box;
+    	border: 2px solid grey;
+    	border-radius: .5px;
+    	font-size: 14px;
+	}
+	.join-section button {
+    	margin: auto 12%;
+    	background-color: grey;
+    	border: none;
+    	color: white;
+    	padding: 11px 77px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 14px;
+    	margin-top: 1%;
+    	width: 27%;
+}
+ }
+
+/* These are the styles for the store dicription*/
+ @media (min-width: 768px){
+	 #store-discription {
+	    padding: 90px;
+	}
+}
+
+/* these are the styles of the closing section*/
+@media (min-width: 768px){
+	#closing h2{
+		font-size: 35px;
+
+	}
+	#closing h3{
+	font-size: 50px;
+	font-weight: 400;
+	color: #666;
+	/*max-width: 100%;*/
+}
+}
+/*these are the styles for the footer*/
+
+ @media (min-width: 768px){
+ 	footer a{
+ 		border-style: solid;
+ 		border-width: 0 0 0 1px;
+ 		padding: 0 1%;
+ 	}
+ 	footer i {
+ 		margin: 3%;
+
+ 	}
+ 	.fa-copyright{
+ 		margin: 10px;
+ 	}
+ }
